@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Projeto_POO {
 	
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		
 		Scanner entrada = new Scanner(System.in); 
@@ -87,7 +87,7 @@ public class Projeto_POO {
 		
 		
 		
-		System.out.println("Bem vindo ao Boliche prime, deseja continuar?");
+		System.out.println("Bem vindo ao Boliche prime,nós somos uma empresa focada \nna sua diversão e alegria então? vamos continuar? ");
 		System.out.println("[1] Sim\n[2] Não ");
 		int ResEntrada = entrada.nextInt();
 		
@@ -136,7 +136,7 @@ public class Projeto_POO {
 			//ALIMENTO
 			//Pistas normais
 			if(ResPista == 2 || ResPista == 3) {
-				System.out.println("perfeito! , escolha o cardapio!");
+				System.out.println("Perfeito! , escolha o cardapio!");
 				
 				System.out.println("[1] " + Coxinha.getNome() + " valor: " + Coxinha.getPreço() + "\n" +
 								"[2] " + Lasanha.getNome() + " valor: " + Lasanha.getPreço() + "\n" + 
@@ -179,7 +179,7 @@ public class Projeto_POO {
 				}
 			
 			 for (int x = 0 ; x>0 || x<3; ) {
-				 System.out.println("Quer mais alguma coisa?");
+				 System.out.println("Deseja pedir mais alguma coisa?");
 				 System.out.println("[1] " + Coxinha.getNome() + " valor: " + Coxinha.getPreço() + "\n" +
 							"[2] " + Lasanha.getNome() + " valor: " + Lasanha.getPreço() + "\n" + 
 							"[3] " + Pizza.getNome() + " valor: " + Pizza.getPreço()+ "\n" + 
@@ -222,7 +222,7 @@ public class Projeto_POO {
 					 
 				//Pista executiva  
 			}else if (ResPista == 1) {
-				System.out.println("perfeito! , escolha o cardapio!");
+				System.out.println("Otima escolha!, agora vamos ao cardapio!");
 				System.out.println("[1] " + Coxinha.getNome() + " valor: " + Coxinha.getPreço() + "\n" +
 						"[2] " + Lasanha.getNome() + " valor: " + Lasanha.getPreço() + "\n" + 
 						"[3] " + Pizza.getNome() + " valor: " + Pizza.getPreço()+ "\n" + 
@@ -270,7 +270,7 @@ public class Projeto_POO {
 				}
 				}
 				 for (int x = 0 ; x>0 || x<5; ) {
-					 System.out.println("Quer mais alguma coisa?");
+					 System.out.println("Deseja pedir mais alguma coisa?");
 					 System.out.println("[1] " + Coxinha.getNome() + " valor: " + Coxinha.getPreço() + "\n" +
 								"[2] " + Lasanha.getNome() + " valor: " + Lasanha.getPreço() + "\n" + 
 								"[3] " + Pizza.getNome() + " valor: " + Pizza.getPreço()+ "\n" + 
@@ -322,7 +322,7 @@ public class Projeto_POO {
 				 }
 			
 			System.out.println("Otima escolha!\n"
-					+ "O que vôce vai beber?");
+					+ "O que você vai beber?");
 			
 			//BEBIDA
 			//Pista normal
@@ -366,7 +366,7 @@ public class Projeto_POO {
 				}
 				}
 				for(int x = 0 ; x>0 || x<4;) {
-					System.out.println("Quer mais alguma bebida?");
+					System.out.println("Deseja pedir outra bebida?");
 					System.out.println("[1] " + CocaCola.getNome() + " Valor: " + CocaCola.getPreço() + "\n" + 
 							"[2] " + Agua.getNome() + " Valor: " +Agua.getPreço()+ "\n" + 
 							"[3] " + Suco.getNome() + " Valor: " + Suco.getPreço() + "\n" +
@@ -456,7 +456,7 @@ public class Projeto_POO {
 				}
 				}
 				for(int x =0; x>0||x<5;) {
-					System.out.println("Quer mais alguma bebida?");
+					System.out.println("Deseja pedir outra bebida?");
 					System.out.println("[1] " + CocaCola.getNome() + " Valor: " + CocaCola.getPreço() + "\n" + 
 							"[2] " + Agua.getNome() + " Valor: " +Agua.getPreço()+ "\n" + 
 							"[3] " + Suco.getNome() + " Valor: " + Suco.getPreço()+ "\n" +
@@ -527,12 +527,13 @@ public class Projeto_POO {
 			
 			System.out.println("Valor da taxa: "+listaPreco.get(0));
 			System.out.println("Valor total: "+soma);
+			System.out.println("Obrigado por escolher a gente e até a proxima!!");
 			
 			
 			entrada.close();
 			
 			}else if (ResEntrada==2) {
-				System.out.println("Obrigado pela atenção");
+				System.out.println("Obrigado pela sua atenção e desculpe não poder te atender ");
 			
 			}else {
 				
@@ -541,14 +542,7 @@ public class Projeto_POO {
 				
 			}
 		
-	}	
-				
-			
-			
-			
-				
-			
-
+	}
 			
 		
 		
