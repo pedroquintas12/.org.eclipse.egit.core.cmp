@@ -87,7 +87,7 @@ public static void main(String[] args) {
 		
 		
 		
-		System.out.println("Bem vindo ao Boliche prime,nós somos uma empresa focada \nna sua diversão e alegria então? vamos continuar? ");
+		System.out.println("Bem vindo ao Boliche prime,nós somos uma empresa focada \nna sua diversão e alegria! \nvamos continuar? ");
 		System.out.println("[1] Sim\n[2] Não ");
 		int ResEntrada = entrada.nextInt();
 		
@@ -551,5 +551,3 @@ public static void main(String[] args) {
 		
 }
 	
-
-
