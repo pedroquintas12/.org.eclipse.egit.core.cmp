@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="bytebank-herdado-conta/src/|java-pilha/src/|bytebank-herdado/src/|teste-de-vida/src/|faculdade/" kind="src" path=""/>
+	<classpathentry kind="src" path="bytebank-herdado-conta/src"/>
+	<classpathentry kind="src" path="bytebank-herdado/src"/>
+	<classpathentry kind="src" path="faculdade"/>
+	<classpathentry kind="src" path="java-pilha/src"/>
+	<classpathentry kind="src" path="teste-de-vida/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
